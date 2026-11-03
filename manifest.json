@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "1.0.1",
+  "version": "1.1.0",
   "repository": "https://github.com/moon-gi-jeon/moonskill3",
   "publication_status": "release",
   "runtime_kind": "instruction-only",
@@ -49,25 +49,32 @@
         "Original collaborative plan-first workflow; automatic PLAN and DECISIONS; canonical REVIEW details and PLAN evidence index.",
         "Consequential grill-me review; meaningful three-candidate core experiments when applicable; concrete first-scope explanation and first-result discussion.",
         "Existing Q/U lists preserved; new owner/user questions revisited after actual evidence; relevant documentation and understanding support; conditional native delegation only.",
-        "Separate presentation profile, human-only short prompt guide and task-compatible entry/handoff; no new execution engine."
+        "Separate presentation profile, human-only short prompt guide and task-compatible entry/handoff; no new execution engine.",
+        "Local preview: readable record layout and recommendations, actual helper-use reporting, constrained method guarantees and total delivery cost, independent-check reasoning, saved-detail-first links and default understanding artifact.",
+        "Preview.2: compare qualifying feasible candidates under identical mandatory requirements, default three without forced padding, quantitative pre-implementation choice rationale and justified later correction.",
+        "Preview.3: managed-document role headers, concrete consequential approval/UI-layout recommendations and exact PLAN explanation IDs with essential CLI context; preserve existing approval points and writing milestones.",
+        "Preview.4: default participant explanation document is PROJECT_GUIDE.md titled 프로젝트 결과와 의사결정 해설; reuse an existing equivalent without duplicating or renaming historical task records."
       ],
       "files": {
-        "assets/DECISIONS.template.md": "48366d5aab4933bd739104e28dbb4257c95bbe9558ce1b0d9fa8846aa8812f3c",
-        "assets/HANDOFF.template.md": "f30462aecf89e77778a51a506241c70d66d8dfd3d4e95dd07320f1894fdd78c5",
-        "assets/PLAN.template.md": "ed195372504660daa00be58af3f5e25b3dff927f2bd2989ac14d212a444bc398",
+        "assets/DECISIONS.template.md": "22e85408bb4489851d8fbba98c1ee42e37a1f2ac7d19a3e927c65c94b467ecf6",
+        "assets/HANDOFF.template.md": "3183bf7dc3324f892a7066a62a262f50881c33d5923a5b9f88a9f7638b71499b",
+        "assets/PLAN.template.md": "9d2353cb124ebb8a4f0f992721f42e60066b856fadceec0b2394680d289e99c1",
         "assets/presentation/BRAND.md": "7f6fdb20ab9ca06b6b4627e095c4499790ce9ea035fc4efbf08fc8cac27d8a24",
         "assets/presentation/SOURCES.md": "e00a69da3aaa2191e19e173c5223b077de10df21a5808ea0fba648299e439e37",
         "assets/presentation/tokens.json": "cb3c857afbc7122b59cb723497727e8579ac2b21d68c4af109170987bd33bbe8",
-        "assets/REVIEW.template.md": "b2599b7dc43ed619db3ea5419c239af5d364cd5018a29bfe543c7e64b0b3cc86",
+        "assets/REVIEW.template.md": "8c52ffea268a6b69a85951da73fb4f050f5d49944461273ad606885b0925af88",
         "references/conditional-guidance.md": "78718d6b4924d2189969202b4a6196c4a538d13dad1eb4da5baeb361c7e0381c",
         "references/evidence-status.md": "a1a4f3788c71ae0a31b4253b406c28123d19caac49b3eaec9366919c7ce36299",
-        "references/parallel-review.md": "ccf5633196d712090ae930367e83f8da26d27d7583ede8e298274edd5fe04d0c",
-        "references/question-strategy.md": "02aac65e7cdf3efd864172904afd48b327a1af13298aac1f779a3ebb8655d0f0",
-        "references/resume.md": "e003a0a74e67ca7305451af6ece172ae444eb23cb694ff18f832f09cac73bc5b",
+        "references/method-selection.md": "43114bac150ba7c043edf3bbf12d0b8a1fadc03dbc574eaaacd5529a28de5093",
+        "references/parallel-review.md": "f7acebbfe33127854290df54f0f2c19fe40f5168dfaf2125b7f773fa017287b4",
+        "references/question-strategy.md": "efdf40c2bb7b3711278fee20912de1cb8045b7234c0f2580842c8ea5964abd30",
+        "references/record-layout.md": "43477f54172aad730bb2166e337384310e59ae427333660cf03e35d6c8349059",
+        "references/resume.md": "809388eb3c7bb9dbac5c864b115434c58e358563b764a9c80dfad1d9f0cda33a",
         "references/task-routing.md": "fc33030172e4ad0267dfe6f1c59f02d65931f353345266c9d1c29dfadae0f9da",
-        "references/verification-records.md": "a92647e5e1c95d80ab6e610f90ad439aad8303e459abd595bf615d2c114867eb",
-        "references/workflow-map.md": "6432acd2749e86dd06b2c925289b76824b66a08d5752e4c0f40f831773356984",
-        "SKILL.md": "016c460b78a507361f1efae54cc4e4ac042bfa29bc4b10c62a168b6b4b422f6d"
+        "references/test-reasoning.md": "89b941a06b76773844e4c41f63712eaa49be54d6982fe2df1d6913bedf595c49",
+        "references/verification-records.md": "8253c42a507571bb31b7dc0d097157524037ab82e9808946f00aae14c40a2c91",
+        "references/workflow-map.md": "2fed55c4c58b0381c7cc72ced014ff02176b89d950d1c474c2a8084d36191a6d",
+        "SKILL.md": "479ba4bc479b7ac748e56bb1c419043c2bc99410d079702eb1f1acd0e55093bd"
       }
     },
     {
@@ -224,11 +231,14 @@
       },
       "changes": [
         "Adapted existing-convention, decision-rationale and prose-preservation guidance to PLAN/DECISIONS/REVIEW and actual user documentation.",
-        "Removed extra ADR folders, release/API/changelog templates and repeated approvals; retain source qualifications, limits and actual verification."
+        "Removed extra ADR folders, release/API/changelog templates and repeated approvals; retain source qualifications, limits and actual verification.",
+        "Local preview: bracketed navigation proposal, current verification reader layer, actual user selection states, detailed understanding plus separate recap, saved-detail-first links.",
+        "Preview.3: purpose/authoritative-source headers and readable approval explanations in existing PLAN sections; semantic line breaks without altering commands, URLs or schemas.",
+        "Preview.4: active document-role navigation uses PROJECT_GUIDE while preserving source, decision and verification responsibilities."
       ],
       "files": {
         "LICENSE.upstream.txt": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7",
-        "SKILL.md": "ff8bf653f53faebf92d0de64de6d7709da210a1416a66a205dfeac1fd069ad73"
+        "SKILL.md": "e646989225987b2c352f9c96f658535fb4f8c63d4c63c6b593f3eaeda0ac179e"
       }
     },
     {
@@ -240,21 +250,26 @@
         "license": "MIT"
       },
       "changes": [
-        "Explain actual input/method/output, decisions, verification validity and limits with source-file links; optional integrated understanding artifact only in permitted stages."
+        "Explain actual input/method/output, decisions, verification validity and limits with source-file links; optional integrated understanding artifact only in permitted stages.",
+        "Local preview: default milestone/final actual-work explanation with detailed outline, actual task collaboration questions, process transitions, contribution/limit/proxy reasoning and final topic recap.",
+        "Preview.2: understanding artifact is required; include comparable numerical selection evidence and concise final topic summaries, not AI answers to later exam questions.",
+        "Preview.3: actual-work explanation role header and real PLAN/DECISIONS/REVIEW pointers; reuse pre-approval explanation IDs and preserve detailed explanation plus topic recap.",
+        "Preview.4: name the required artifact PROJECT_GUIDE.md / 프로젝트 결과와 의사결정 해설; retain legacy-equivalent reuse, milestone timing, detailed content and final topic recap."
       ],
       "files": {
-        "SKILL.md": "a4eb94753550c711afeeaf984a11ecd458bde338927e797ab705f782641baeaa"
+        "assets/UNDERSTANDING.template.md": "e5b7b0cfd8958ed67b1fc0120a937ecc80fb1457cef6c79bc19075ddd18e9e32",
+        "SKILL.md": "363412402b9ced7028ada0041b1fff704761421b670db1d24da22bebbb217686"
       }
     }
   ],
   "package_files": {
     ".gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
-    "AGENTS.md": "5b21e109010059276937202ef0afdb5d3e35e2c20bff8c0206fa5469bc353b3b",
-    "CHANGELOG.md": "3480e5a7a954b81fb072fa1adf142d1b7d30fa62ab6f8de7d79d54fcad0c7f28",
+    "AGENTS.md": "ab2c0fcf0ae600ab7345f5f905427c068144b302695ff64cdbdf5b8bc8811ee9",
+    "CHANGELOG.md": "e4108f3ebe5df1469424b4a7d36e834b050795bfad60f0de9c66e82ed70a5da8",
     "LICENSE": "f81c3cc330db4a965b9773951a6b2d6a5cc1a530be15eb407f965360d331158d",
-    "PROMPTS.md": "85053926b9fef97f585de3b98494c1384dc51e1c0d62e089852812939cf74491",
-    "README.md": "e76a99e958ea779b23a30fe76e670f0d6386957277792ef40321ce14a2b31765",
-    "SOURCES.md": "b5009d533fd78465d1faf17801c3b12b2b4ac2ee622522f3973f056434da4ec4",
+    "PROMPTS.md": "7a3ce8ba1684aeef530a8e78b8f6329a67e674a2c7948f247c95abb5a481fde3",
+    "README.md": "0caf7faeb6d42003f086f4ac76817865546b2e5ae976c50526854bf6db53409c",
+    "SOURCES.md": "d6457802ae4f45fbba9b3043573c28e98f581ca832fc745ad1f5752d926e38e1",
     "THIRD_PARTY_NOTICES.md": "a22401efa26c3651da78abdaca2870bc2caec9cbceab38bfb0e0fd01d3aa8ed5"
   },
   "documentation": {
@@ -268,9 +283,15 @@
     "prompt_reference_audience": "human",
     "prompt_automatic_loading": false,
     "user_guide_install_path": "docs/moonskill3/PROMPTS.md",
-    "prompt_onboarding": "Short human-only workflow sequence; source/answers/criteria/experiment/choice/first-result approval/review/understanding.",
+    "prompt_onboarding": "Human-only workflow with source version check, conditional branches, bounded experiment approval, user observation, change-triggered reapproval and final reconciliation.",
     "verification_detail": "REVIEW.md",
-    "understanding": "UNDERSTANDING.md only when an integrated actual-work explanation is useful; not an assumed mandatory deliverable"
+    "understanding": "Required actual-work explanation at meaningful milestones with chronological work history, a top topic recap and six distinct anticipated practice questions with grounded answer cues, reconciled before permitted final handback. Reuse PROJECT_GUIDE.md or an existing equivalent.",
+    "user_choice_policy": "Recommendations, reasons/counterexamples, impact and actual answer/selection status in the existing full U list.",
+    "verification_reader_layer": "Current user-readable check explanations before canonical V-ID execution history; saved detail before PLAN index.",
+    "role_headers": "Short purpose and actual authoritative-document/ID navigation at the top of managed task documents; required task formats and source preservation take priority; no premature blank files.",
+    "approval_explanations": "Concrete recommendations, reasons/conditions, impact and scope at existing consequential approval points; full detail in the relevant PLAN U/S or optional X ID, with essential decision context retained in CLI; no new approval gate or ledger.",
+    "understanding_file": "PROJECT_GUIDE.md",
+    "understanding_title": "프로젝트 결과와 의사결정 해설"
   },
   "language": "ko",
   "agent_entry_policy": "Task-scoped; inspect existing AGENTS, preserve original rules, merge only a needed non-conflicting pointer; explicit invocation fallback on conflict or restriction.",

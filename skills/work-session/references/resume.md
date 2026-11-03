@@ -11,6 +11,8 @@ Preserve only what another permitted session needs:
 
 On resume, inspect the current files and applicable task stage before acting. A snapshot is a navigation aid, not proof. Compare relevant input/configuration/code with the state covered by the recorded evidence. Recheck affected or unverifiable claims and mark stale results explicitly; reuse unchanged applicable evidence rather than rerunning everything.
 
+Check that newly referenced D/V details were actually saved and that PLAN's current selections match the preserved history. Missing IDs are gaps to disclose, not past facts to invent. Read the current actual-work understanding document where useful; reconcile affected explanations after substantive changes without duplicating an additional ledger.
+
 Preserve prior meaningful decisions and superseding relationships. A resumed session does not by itself require another approval of the same unchanged plan. Ask when the approved scope or consequential assumptions changed. Do not resume automatically after the user has cancelled the task or after AI use is no longer permitted.
 
 The receiving session should also read applicable AGENTS guidance. A valid handoff does not prove that the host loaded the new session instructions automatically.

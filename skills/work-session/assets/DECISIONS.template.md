@@ -1,10 +1,20 @@
 # DECISIONS
 
-Create entries only for real consequential decisions. Do not fill examples as actual history.
+[문서 역할] 중요한 실제 선택·선택자·이유·버린 대안·한계와 변경/대체 관계의 기록.
+[다른 내용의 위치] 현재 요구·계획·승인 범위는 PLAN,
+실행 검증의 방법·수치·한계는 REVIEW의 V-ID, 쉬운 전체 해설은 이해 문서에서 확인한다.
+실제 문서명·위치로 바꾸고 아직 없는 문서는 예정/미작성으로 구분한다.
 
-Write the actual document in Korean. Preserve exact source names, identifiers and necessary quotations.
+중요한 실제 선택만 기록한다. 기존 동등 문서·ID·유용한 이력을 보존한다. 없었던 추천/반론/결정을 소급 생성하지 않는다.
 
-| ID / actual time if available | Issue and proposal / alternative | Decision and who made it or delegated | Reason / source | Impact and superseded decision |
-|---|---|---|---|---|
+## [D01 · 현재/대체됨] 실제 선택
 
-Preserve meaningful objections, improvements and scope changes. Distinguish the user's choice from the agent's technical choice within delegated scope. Keep superseded decisions traceable rather than erasing them.
+- [시점/근거] 실제 알 수 있을 때만:
+- [문제/제안]:
+- [선택자/선택/위임] 사용자 판단, 사용자 지시/승인, AI 위임 범위 기술 판단, 사용자 직접 수정을 구분:
+- [이유/출처] 이유 미기록은 확인 필요:
+- [버린 대안/손익/한계]:
+- [영향/관련 요구/검증]:
+- [대체 관계] 이전/후속 D-ID와 이유:
+
+현재 상태는 PLAN, 상세 실행 근거는 REVIEW에 둔다. 과거 선택을 지우지 않고 현재 결정과의 관계를 찾을 수 있게 한다.
