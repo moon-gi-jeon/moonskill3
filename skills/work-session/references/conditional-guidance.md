@@ -7,7 +7,7 @@ Read only the part needed for the current task. These are decision examples, not
 | Observation | Appropriate next action |
 |---|---|
 | An optional Skill is not installed | Perform the relevant reasoning directly if feasible. Record unavailable once; do not claim Skill invocation or auto-install dependencies. |
-| No API requirement exists | Mark the API-specific path not applicable. Do not create endpoints to exercise a tool. |
+| No actual API contract to design or authorized HTTP check to run | Mark the corresponding helper inapplicable. A local endpoint used by the chosen implementation qualifies when relevant. Do not create endpoints to exercise a tool. |
 | A required input is missing | Check referenced location and relevant file listing, then record the affected requirement as blocked and ask the owner. Do not invent data or silently reduce the scope. |
 | No existing test command | Use task-sized direct checks or necessary manual review. Do not report zero tests as a functional pass. |
 | Automated UI operation is forbidden or absent | Use permitted non-UI checks and ask the user for manual preview observations. Do not install another automation tool to bypass the restriction. |
