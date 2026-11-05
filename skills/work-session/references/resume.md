@@ -1,6 +1,6 @@
 # Interruption and resume
 
-Use at an actual pause, context loss or session transfer. Reuse the existing PLAN handoff section when sufficient. If a compact separate file helps transfer to another session or workspace, create/update HANDOFF using the [template](../assets/HANDOFF.template.md) and link it from PLAN when edits are allowed. If PLAN is fixed or read-only, give the actual HANDOFF path in the handback. Keep PLAN/DECISIONS/REVIEW and the actual files canonical: HANDOFF points to them rather than duplicating a second requirement or progress ledger. Do not generate it for ordinary progress. Follow the task's AI-use and submission boundaries at the current stage.
+Use at an actual pause, context loss or session transfer. Reuse the existing PLAN handoff section when sufficient. If a compact separate file helps transfer to another session or workspace, create/update HANDOFF using the [template](../assets/HANDOFF.template.md), follow the [template reading and saved-document check](record-layout.md#양식-적용과-저장-확인), and link it from PLAN when edits are allowed. If PLAN is fixed or read-only, give the actual HANDOFF path in the handback. Keep PLAN/DECISIONS/REVIEW and the actual files canonical: HANDOFF points to them rather than duplicating a second requirement or progress ledger. Do not generate it for ordinary progress. Follow the task's AI-use and submission boundaries at the current stage.
 
 Preserve only what another permitted session needs:
 - Current objective and approved plan revision; important source/owner-answer changes.
